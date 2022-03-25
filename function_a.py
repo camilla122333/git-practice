@@ -1,5 +1,7 @@
+import statistics
+
 def most_common_value(number_list):
-    pass
+    return statistics.mode(number_list)
 
 
 if __name__ == "__main__":
